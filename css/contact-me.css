@@ -1,0 +1,48 @@
+.section-contact > .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 800px;
+    width: 100%;
+    padding: 60px 20px;
+}
+.section-contact > .container > h2 {
+    font-size: 30px;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+.section-contact > .container > form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    width: 100%;
+    padding: 30px 20px ;
+}
+.section-contact > .container button{
+    color: #fff;
+    border: 1px solid #fff;
+    background-color: #D40A44;
+    padding: 15px 30px;
+    border-radius: 15px;
+}
+.section-contact > .container button:hover {
+    background-color: #fff;
+    color: #D40A44;
+}
+input[type=text] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 1px solid black;
+
+}
+
+@media (max-width: 599px) {
+    .section-contact > .container {
+        flex-direction: column;
+    }
+}
